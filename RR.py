@@ -20,7 +20,7 @@ def gra():
     sleep()
     print("Gra została zmodyfikowana w taki sposób by to 5/6 naboji było załadowanych")
     sleep()
-    print("Wybierz liczne od 1 do 6:")
+    print("Wybierz pozycje od 1 do 6:")
     number = int(input())
     randomNumber = random.randint(1, 7)
     if number == randomNumber and number <= 6:
